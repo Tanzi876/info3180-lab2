@@ -1,3 +1,64 @@
 body {
     padding-top: 5rem;
 }
+.card {
+    width: 18rem;
+    display: block;
+    
+}
+.card-header {
+    display: block; 
+    background-color: aqua;
+    color: white;
+    
+}
+.instagram{
+    justify-content: center;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-header h3{
+    text-decoration: solid;
+    text-align: center;
+}
+
+#follow{
+    text-align:right;
+    background-color: #48bb78;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 5px;
+    color: white;
+    left: 30px;
+}
+a{
+    
+}
+.stats{
+    grid-template-columns: repeat(3,1fr);
+    display: grid; 
+    align-items: center;
+}
+.card-body{
+    justify-content: space-between;
+    padding: 10px;
+}
+.card-body h5{
+    text-decoration: solid;
+}
+.card-body h6{
+    color: grey;
+}
+.card-text{
+    padding: 15px;
+    color: grey;
+}

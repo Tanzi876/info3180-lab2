@@ -1,0 +1,35 @@
+{%extends "base.html"%}
+
+{%block main%}
+<div class =card>
+	<div class ="card-header d-flex flex-column justify-content-center">
+		<img src ="{{url_for('static',filename ='crop-circle.png')}}"  alt= " My photo">
+		<h3> Tanya-Lee </h3>
+		<a class = instagram href ="//wwww.instagram.com/outcast_tanz/?h1=en" target="_blank" >@outcast_tanz</a>
+		<h6 class="d-flex justify-content-center my-1"> Jamrock Kingston</h6>
+		<h6 class="d-flex justify-content-center my-1"> Joined January 2018</h6>
+	</div>
+	
+	<div class = "card-body justify-content-center">
+		<p4 class="card-text d-flex justify-content-center"> I'm a open book about life that beautiful confusing with pain</p4>
+		<div class= stats>
+			<div class= card-body> 
+				<h5>7</h5>
+				<h6>Posts</h6>
+			</div>
+			<div class= card-body> 
+				<h5>100</h5>
+				<h6>Following</h6>
+			</div>
+			<div class= card-body> 
+				<h5>250</h5>
+				<h6>Followers</h6>
+			</div>
+		</div>
+		
+			
+		<button id = follow>Follow</button>
+	</div>
+
+</div>
+{% endblock %}
